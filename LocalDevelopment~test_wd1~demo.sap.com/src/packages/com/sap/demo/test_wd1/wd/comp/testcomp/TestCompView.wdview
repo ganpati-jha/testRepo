@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- MetaDataAPI generated on: Monday, April 6, 2015 6:49:32 PM CEST -->
+<View xmlns="http://xml.sap.com/2002/10/metamodel/webdynpro" xmlns:IDX="urn:sap.com:WebDynpro.View:3.0" mmRelease="7.00" mmVersion="3.0" mmTimestamp="1428338972390" version="10" name="TestCompView" package="com.sap.demo.test_wd1.wd.comp.testcomp" masterLanguage="en">
+	<AbstractView.ViewController>
+		<Core.Reference package="com.sap.demo.test_wd1.wd.comp.testcomp" name="TestCompView" type="Controller"/>
+	</AbstractView.ViewController>
+	<View.Parent>
+		<Core.Reference package="com.sap.demo.test_wd1.wd.comp.testcomp" name="TestComp" type="Component"/>
+	</View.Parent>
+	<View.RootUIElementContainer>
+		<TransparentContainer name="RootElement">
+			<ViewElement.Definition>
+				<Core.Reference package="com.sap.ide.webdynpro.uielementdefinitions" name="TransparentContainer" type="UIElementDefinition"/>
+			</ViewElement.Definition>
+			<UIElementContainer.Layout>
+				<FlowLayout name="RootElement_Layout">
+					<ViewElement.Definition>
+						<Core.Reference package="com.sap.ide.webdynpro.uielementdefinitions" name="FlowLayout" type="LayoutDefinition"/>
+					</ViewElement.Definition>
+				</FlowLayout>
+			</UIElementContainer.Layout>
+		</TransparentContainer>
+	</View.RootUIElementContainer>
+</View>
